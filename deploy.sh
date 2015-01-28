@@ -1,7 +1,7 @@
 #!/bin/bash
 rm -rf build || exit 0;
 mkdir build;
-shark build-project
+./node_modules/shark-cli/bin/shark site/build-project
 ( cd build
  git init
  git config user.name "${GIT_NAME}"
