@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - 0.11.14
+before_install:
+  - npm install -g npm@latest
+notifications:
+  email: false
+script: npm run-script deploy
+env:
+  global:
+  - GH_REF: github.com/shark-js/shark-js.github.io.git
+  - secure: a+rHjI3EZHfUGlb+PwR8m0cdBndUDh2hG8T9W8IJ3yjKiJvNA9O49qnawXZNwzch1rnAmHv7gqL6Wmlx26sOpw0L5JzZixJmPlrPaxoM+futZa09QeDkMm6VvzXaNZfH3wPBcPXWTAdmeBTRnbbwAc9ua2q6Sid6hRe2eirX+2s=

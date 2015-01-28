@@ -1,0 +1,38 @@
+{
+  "name": "shark-js.github.io",
+  "version": "0.0.1",
+  "description": "Shark website",
+  "scripts": {
+    "deploy": "./deploy-ghpages.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shark-js/shark-js.github.io.git"
+  },
+  "author": "Vadim Goncharov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shark-js/shark-js.github.io/issues"
+  },
+  "homepage": "https://github.com/shark-js/shark-js.github.io",
+  "engines": {
+    "node": ">=0.11.14",
+    "npm": ">=2.1.5"
+  },
+  "engineStrict": true,
+  "files": [
+    "src",
+    "README.md",
+    "LICENCE"
+  ],
+  "dependencies": {
+    "co-fs-extra": "git://github.com/shark-js/co-fs-extra",
+    "shark-cli": "0.7.1",
+    "shark-core": "0.6.1",
+    "shark-logger": "0.0.2",
+    "shark-transformer-autoprefixer": "0.0.2",
+    "shark-transformer-stylus": "0.0.4",
+    "shark-tree": "0.0.4",
+    "verror": "^1.6.0"
+  }
+}
