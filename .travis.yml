@@ -3,6 +3,8 @@ node_js:
 - 0.11.14
 before_install:
 - npm install -g npm@latest
+- git config --global user.email "vg@vadimgoncharov.ru"
+- git config --global user.name "Travis-CI"
 notifications:
   email: false
 script: npm run-script deploy
