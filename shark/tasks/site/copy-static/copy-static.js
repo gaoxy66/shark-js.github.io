@@ -9,7 +9,6 @@ module.exports = function *() {
 
 	var paths = [
 		'index.html',
-		'CNAME',
 		'media'
 	].map(function(fileName) {
 		return {
