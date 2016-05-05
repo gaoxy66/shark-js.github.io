@@ -25,13 +25,13 @@
     "LICENCE"
   ],
   "dependencies": {
-    "co-fs-extra": "git://github.com/shark-js/co-fs-extra",
-    "shark-cli": "0.7.1",
-    "shark-core": "0.6.1",
-    "shark-logger": "0.0.2",
-    "shark-transformer-autoprefixer": "0.0.2",
-    "shark-transformer-stylus": "0.0.4",
-    "shark-tree": "0.0.4",
-    "verror": "^1.6.0"
+    "co-fs-extra": "^1.2.1",
+    "shark-cli": "^0.8.0",
+    "shark-core": "^0.9.0",
+    "shark-logger": "^0.1.1",
+    "shark-transformer-autoprefixer": "^0.2.0",
+    "shark-transformer-stylus": "^0.2.1",
+    "shark-tree": "^0.2.1",
+    "verror": "^1.6.1"
   }
 }
