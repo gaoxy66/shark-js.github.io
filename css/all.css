@@ -1,0 +1,22 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+html {
+  background: #1a1a1a no-repeat center center;
+  background-image: url("../media/shark-logo.png");
+  background-image: url("../media/shark-logo.svg");
+  -webkit-background-size: contain;
+          background-size: contain;
+}
+.mainLink {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+}
